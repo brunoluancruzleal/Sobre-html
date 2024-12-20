@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Css/Style.css">
+    <title>Sobre a estrutura HTML</title>
+</head>
+
+<body>
+    <div class="contreiner">
+        <div class="cabecario">
+            <h2 class="meu-titulo">O que é HTML</h2>
+            <p class="sub-titulo">Linguagem de marcação</p>
+        </div>
+        <div class="img-estrutura">
+            <figure>
+                <img class="img" src="./img/Exemplo de html.jpeg" alt="Exemplo de uma estrutura HTML" />
+                <figcaption>
+                    <p>Exemplo de uma estrutura HTML</p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="descricao">
+            <h2>Sobre a Linguagem:</h2>
+            <p>
+                A estrutura HTML consiste em
+                <span class="bold">elementos organizados hierarquicamente</span>,
+                começando com a declaração do tipo de documento para identificar o
+                HTML. O elemento principal é o HTML, que contém dois grandes blocos: o
+                cabeçalho e o corpo. O cabeçalho guarda informações sobre a página,
+                como metadados, título e links externos para estilos e scripts. Ele
+                não contém conteúdo visível diretamente na página. O corpo é onde fica
+                todo o conteúdo visível, como textos, imagens, vídeos e formulários.
+                Elementos como parágrafos, cabeçalhos, listas e tabelas são usados
+                para organizar e apresentar as informações. Com o
+                <span class="bold">HTML5</span>, surgiram tags semânticas, como
+                cabeçalho, navegação, seção e rodapé, que ajudam a estruturar o
+                conteúdo de forma mais clara e acessível. Essas tags tornam o código
+                mais legível e melhoram a interpretação por navegadores e mecanismos
+                de busca.
+            </p>
+            <div class="historia">
+                <h2>Historia da Linguagem</h2>
+                <p>O HTML (HyperText Markup Language) foi criado por Tim Berners-Lee em 1989 no CERN como uma forma de
+                    compartilhar documentos interligados por hiperlinks. Lançado oficialmente em 1991, com apenas 18
+                    tags, evoluiu rapidamente com a padronização pelo IETF e, posteriormente, pelo W3C. O HTML 2.0, em
+                    1995, consolidou seu uso inicial, enquanto o HTML 3.0 e 4.0 trouxeram avanços como suporte a
+                    tabelas, formulários e estilos com CSS. Durante a década de 2000, o XHTML tentou tornar a linguagem
+                    mais rigorosa, mas foi superado pelo HTML5, lançado em 2014, que modernizou a web com suporte a
+                    multimídia, interatividade e dispositivos móveis. Hoje, o HTML segue um modelo de padrão vivo,
+                    evoluindo continuamente para atender às necessidades da web moderna.</p>
+            </div>
+        </div>
+
+        <div class="exemplos">
+            <h2>1.Estrutura Básica de um Documento HTML:</h2>
+            <p>
+                Um documento HTML sempre começa com a declaração do tipo de
+                documento<span class="bold"> (DOCTYPE html)</span> e segue com os
+                elementos principais:
+            </p>
+            <h2>2. Elementos Principais</h2>
+            <ul>
+                <li>
+                    <span class="bolder">DOCTYPE html:</span>
+                    <ul>
+                        <li>Informa ao navegador que este é um documento HTML5.</li>
+                        <li>Deve ser sempre a primeira linha do código.</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <span class="bolder">HTML:</span>
+                    <ul>
+                        <li>É o elemento raiz de um documento HTML.</li>
+                        <li>Todo o conteúdo da página deve estar dentro dessa tag.</li>
+                        <li>
+                            O atributo <span class="bolder">lang</span> indica o idioma
+                            principal do documento (exemplo:
+                            <span class="bolder">lang="pt-BR"</span> para português
+                            brasileiro).
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <span class="bolder">Head:</span>
+                    <ul>
+                        <li>Contém metadados e informações sobre o documento.</li>
+                        <li>Não exibe conteúdo diretamente na página.</li>
+                        <p><span class="bold">inclui:</span></p>
+                        <li>
+                            <span class="bolder">meta</span>: Define informações como o
+                            conjunto de caracteres e viewport.
+                        </li>
+                        <li>
+                            <span class="bolder">title</span>: Define o título exibido na
+                            aba do navegador.
+                        </li>
+                        <li>
+                            Links para arquivos externos como CSS e scripts (<span class="bolder">link</span>
+                            e <span class="bolder">script</span>).
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <span class="bolder">body:</span>
+                    <ul>
+                        <li>Contém todo o conteúdo visível da página.</li>
+                        <li>Inclui textos, imagens, vídeos, tabelas, links, formulários, etc.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
